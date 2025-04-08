@@ -20,6 +20,9 @@ public class Author {
     private String id;
 
     private String name;
+    private String surname;
+    private String dateOfBirth;
+    private String nationality;
 
     @Relationship(type = "WROTE")
     private List<Book> books = new ArrayList<>();

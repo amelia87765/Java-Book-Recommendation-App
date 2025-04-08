@@ -18,7 +18,11 @@ public class Book {
     private String id;
 
     private String title;
-    private int year;
+    private int PublicationYear;
+    private String isbn;
+    private double avgRating;
+    private int ratingsCount;
+    private String genre;
 
     @Relationship(type = "WROTE", direction = Relationship.Direction.INCOMING)
     private Author author;

@@ -19,7 +19,10 @@ public class User {
     @Id
     private String id;
 
-    private String username;
+    private String name;
+    private String surname;
+    private String email;
+    private String password;
 
     @Relationship(type = "READ")
     private List<ReadRelation> readBooks = new ArrayList<>();
