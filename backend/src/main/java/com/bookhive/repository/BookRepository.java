@@ -1,6 +1,6 @@
-package com.example.repository;
+package com.bookhive.repository;
 
-import com.example.models.Book;
+import com.bookhive.models.Book;
 import org.springframework.data.neo4j.repository.Neo4jRepository;
 import java.util.List;
 

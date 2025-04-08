@@ -1,4 +1,4 @@
-package com.example.models;
+package com.bookhive.models;
 
 import lombok.Data;
 import org.springframework.data.neo4j.core.schema.Id;
