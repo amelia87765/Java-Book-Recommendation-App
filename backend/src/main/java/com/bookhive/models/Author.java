@@ -9,7 +9,6 @@ import java.util.List;
 import org.springframework.data.neo4j.core.schema.Relationship;
 import org.springframework.data.neo4j.core.schema.Id;
 import org.springframework.data.neo4j.core.schema.Node;
-import org.springframework.data.neo4j.core.schema.PostLoad;
 import org.springframework.data.annotation.Transient;
 
 @Node
