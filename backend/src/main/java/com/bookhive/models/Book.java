@@ -18,7 +18,7 @@ public class Book {
     private String id;
 
     private String title;
-    private int PublicationYear;
+    private int publicationYear;
     private String isbn;
     private double avgRating;
     private int ratingsCount;
@@ -29,5 +29,8 @@ public class Book {
 
     @Relationship(type = "IN_SERIES", direction = Relationship.Direction.OUTGOING)
     private Series series;
+
+    @Relationship(type = "READ", direction = Relationship.Direction.INCOMING)
+    private ReadRelation readRelation;
 
 }
