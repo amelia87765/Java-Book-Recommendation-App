@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface UserRepository extends Neo4jRepository<User, String> {
-    Optional<User> findByUsername(String username);
+    Optional<User> findByEmail(String email);
 
-    List<User> findByIsFriendsWithUsername(String friendUsername);
+    List<User> findByIsFriendsWithEmail(String friendEmail);
 }
